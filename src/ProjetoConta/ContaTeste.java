@@ -39,12 +39,11 @@ public class ContaTeste {
         System.out.println("\nDigite o número da conta: ");
         recebe = ler.nextLine();
         conta1.conta = recebe;
-        System.out.println("\nDigite o número da agência: ");
+        System.out.println("\nDigite o número da agência: " );
         recebe = ler.nextLine();
         conta1.agencia = recebe;
         conta1.saldo = 0;
     }
-
     public static void exeConsultar(){
         conta1.imprimir();
     }
@@ -61,7 +60,6 @@ public class ContaTeste {
             System.out.println("\nSaque não realizado: ");
         }
     }
-
     public static void exeDepositar(){
         double valor;
         System.out.println("\nDigite o valor que deseja depositar: ");
