@@ -39,7 +39,7 @@ public class ContaTeste {
         System.out.println("\nDigite o número da conta: ");
         recebe = ler.nextLine();
         conta1.conta = recebe;
-        System.out.println("\nDigite o número da agência: " );
+        System.out.println("\nDigite o número da agência: ");
         recebe = ler.nextLine();
         conta1.agencia = recebe;
         conta1.saldo = 0;
